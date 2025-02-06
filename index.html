@@ -1,0 +1,18 @@
+<form method="POST" action="/api/submit">
+    <div class="input">
+      <label for="name">姓名</label>
+      <input id="name" name="name" type="text" pattern="[A-Za-z]+" required />
+    </div>
+    
+    <div class="input">
+      <label for="email">電子郵件</label>
+      <input id="email" name="email" type="email" required />
+    </div>
+    
+    <div class="input">
+      <label for="message">意見回饋</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    
+    <button type="submit">送出</button>
+  </form>
